@@ -1,0 +1,51 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  color: #6c6c6c;
+  padding: 10px 0 25px 0;
+}
+
+.logo {
+  background-image: url('../../assets/logo.png');
+  background-size: 100% 100%;
+  width: 228px;
+  height: 63px;
+}
+
+.title {
+  padding: 5px 0 10px 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+}
+
+.inputNumber {
+  width: 100%;
+}
+
+.datePicker {
+  width: 100%;
+}
+
+.date {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.maxborder {
+  border: 1px black solid;
+  color: #6c6c6c;
+  padding: 10px 20px 25px 20px;
+}
+
+.footer {
+  margin-top: 30px;
+  padding: 0 20px;
+  color: white;
+}

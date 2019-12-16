@@ -1,0 +1,140 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  color: #6c6c6c;
+  padding: 10px 0 25px 0;
+}
+
+.logo {
+  background-image: url('../../assets/logo.png');
+  background-size: 100% 100%;
+  width: 228px;
+  height: 63px;
+}
+
+.title {
+  padding: 5px 0 10px 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+}
+
+.inputNumber {
+  width: 100%;
+}
+
+.datePicker {
+  width: 100%;
+}
+
+.date {
+  width: 30%;
+  margin: 0 auto;
+}
+
+hr {
+  margin: 0;
+}
+
+.header {
+  margin-left: 380px;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.content>header>span:nth-child(1) {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content1 {
+  height: 888px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.service {
+  background: #bbb;
+  height: 42px;
+  line-height: 42px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.label_1 {
+  height: 50px;
+  font-size: 29px;
+  border-bottom: 1px solid black;
+}
+
+.onSubmit_hr {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+/* 公章 */
+.cachet1,
+.cachet2 {
+  width: 50%;
+  height: 274px;
+  font-weight: bold;
+}
+
+.cachet1 {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.cachet2 {
+  float: right;
+}
+
+.cachet1>header,
+.cachet2>header {
+
+  height: 181px;
+  margin-left: 16px;
+}
+
+.cachet1>span:nth-child(2) {
+  margin-left: 16px;
+}
+
+.cachet1>span:nth-child(4) {
+  display: block;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.cachet2>span:nth-child(2) {
+  margin-left: 16px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.cachet2>span:nth-child(4) {
+  margin-left: 16px;
+  margin-top: 16px;
+  margin-right: 115px;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 30px;
+  padding: 0 20px;
+  color: white;
+}

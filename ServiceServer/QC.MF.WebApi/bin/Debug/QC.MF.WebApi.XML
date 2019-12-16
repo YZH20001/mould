@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>QC.MF.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:QC.MF.Api.Controllers.ThirdPartyLoginForTokenController">
+            <summary>
+            第三方登录   返回token
+            </summary>
+        </member>
+        <member name="M:QC.MF.Api.Controllers.ThirdPartyLoginForTokenController.#ctor(QC.MF.Authorization.LogInManager,Abp.Runtime.Caching.ICacheManager,QC.MF.Captcha.ICaptchaManager,QC.MF.Authorization.Users.UserManager,QC.MF.SMSs.ISMSManager,QC.MF.Authorization.ThirdParty.QQAuthService,QC.MF.Authorization.ThirdParty.WeixinAuthService,QC.MF.Authorization.ThirdParty.WeiboAuthService,QC.MF.Authorization.ThirdParty.AlipayAuthService)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:QC.MF.Api.Controllers.ThirdPartyLoginForTokenController.Authenticate(QC.MF.Api.Models.ThirdPartyLoginModel)">
+            <summary>
+            第三方登录   返回token
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:QC.MF.Api.Controllers.SMSLoginController">
+            <summary>
+            手机短信登录
+            </summary>
+        </member>
+        <member name="M:QC.MF.Api.Controllers.SMSLoginController.#ctor(QC.MF.Authorization.LogInManager,Abp.Runtime.Caching.ICacheManager,QC.MF.Captcha.ICaptchaManager,QC.MF.Authorization.Users.UserManager,QC.MF.SMSs.ISMSManager)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="logInManager"></param>
+            <param name="cacheManager"></param>
+        </member>
+        <member name="M:QC.MF.Api.Controllers.SMSLoginController.Authenticate(QC.MF.Api.Models.LoginForSmsCode)">
+            <summary>
+            手机短信登录认证
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:QC.MF.Api.Controllers.MenusController">
+            <summary>
+            菜单
+            </summary>
+        </member>
+        <member name="M:QC.MF.Api.Controllers.MenusController.GetMenus">
+            <summary>
+            获取菜单及权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:QC.MF.Api.Controllers.AccountController">
+            <summary>
+            登录
+            </summary>
+        </member>
+        <member name="M:QC.MF.Api.Controllers.AccountController.#ctor(QC.MF.Authorization.LogInManager,Abp.Runtime.Caching.ICacheManager,QC.MF.Captcha.ICaptchaManager)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="logInManager"></param>
+            <param name="cacheManager"></param>
+        </member>
+        <member name="M:QC.MF.Api.Controllers.AccountController.Authenticate(QC.MF.Api.Models.LoginModel)">
+            <summary>
+            登录认证
+            </summary>
+            <param name="loginModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:QC.MF.Api.Models.LoginForSmsCode">
+            <summary>
+            通过手机号短信 登录
+            </summary>
+        </member>
+        <member name="P:QC.MF.Api.Models.LoginForSmsCode.PhoneNumber">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:QC.MF.Api.Models.LoginForSmsCode.Code">
+            <summary>
+            短信验证码
+            </summary>
+        </member>
+        <member name="T:QC.MF.Api.Models.PhoneWithCaptchaInput">
+            <summary>
+            发送短信前需验证验证码
+            </summary>
+        </member>
+        <member name="P:QC.MF.Api.Models.PhoneWithCaptchaInput.PhoneNumber">
+            <summary>
+            电话号码
+            </summary>
+        </member>
+        <member name="P:QC.MF.Api.Models.PhoneWithCaptchaInput.Captcha">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="P:QC.MF.Api.Models.LoginModel.Captcha">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:QC.MF.Api.Models.ThirdPartyLoginModel">
+            <summary>
+            第三方登录请求参数
+            </summary>
+        </member>
+        <member name="P:QC.MF.Api.Models.ThirdPartyLoginModel.ThirdParty">
+            <summary>
+            登录平台
+            </summary>
+        </member>
+        <member name="P:QC.MF.Api.Models.ThirdPartyLoginModel.Code">
+            <summary>
+            登录 Authorization Code
+            </summary>
+        </member>
+    </members>
+</doc>
